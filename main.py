@@ -6,7 +6,7 @@ import streamlit as st
 naiveModel = pickle.load(open('naive_bayes_model.pkl', 'rb'))
 
 # judul web
-st.title('Prediksi Penyakit Jantung')
+st.title('Naive - Prediksi Penyakit Jantung')
 
 # input atribut
 col1, col2 = st.columns(2)
